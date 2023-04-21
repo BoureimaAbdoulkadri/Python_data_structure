@@ -2,7 +2,7 @@ import csv
 import codecs
 import collections
 
-with codecs.open('d:\\data\\departement.csv', encoding='utf8', errors='replace') as dept:
+with codecs.open('departement.csv ', encoding='utf8', errors='replace') as dept:
     rd = csv.reader(dept, delimiter=',')
     codes, departements = zip(*((r[1], r[2]) for r in rd))
 

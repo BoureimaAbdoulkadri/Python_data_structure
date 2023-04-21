@@ -1,7 +1,7 @@
 import csv
 import codecs
 
-with codecs.open('d:\\data\\departement.csv', encoding='utf8', errors='replace') as dept:
+with codecs.open('departement.csv ', encoding='utf8', errors='replace') as dept:
     rd = csv.reader(dept, delimiter=',')
     # codes = tuple(r[1] for r in rd)
     # dept.seek(0)
